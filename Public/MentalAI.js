@@ -72,7 +72,7 @@ async function sendMessage() {
         responseContainer.appendChild(userMessage);
 
         // Make a request to your local server
-        let response = await fetch('https://odd-ruby-shark-toga.cyclic.app//api/chatgpt', {
+        let response = await fetch('https://calm-gray-donkey-veil.cyclic.app//api/chatgpt', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
